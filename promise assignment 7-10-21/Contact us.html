@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<title>my second web page</title>
+		<style>
+			body{background-color:rgb(236 239 245);
+            margin: 0px auto;
+			}
+			a{text-decoration:none;
+			}
+			label{color:red;
+			}
+			input[type="submit"]:{padding: 10px;
+			}
+			input[type="submit"]:hover{background: white;
+			padding: 10px;
+			}
+            input.google{padding: 10px;
+             color:red;
+             border-radius: 60px;
+            }
+            a.button{margin-left: 10px;
+            }
+            ul{margin-left: 400px;
+             margin-top: -50px;
+             border-radius: 30px;
+             background: black;
+             width: fit-content;
+             padding: 10px;
+            }
+            li{display: inline;
+            padding: 5px;
+            border: 3px solid white;
+            border-radius: 30px;
+            background: rgb(167,57,57);
+            color: white;
+            }
+            a.head:hover{background-color: #daf4e6;
+            color: #170305;
+            border-radius: 30px;
+            padding: 5px;
+            }
+            div#header{background: rgb(198,120,120);
+            height: 85px;
+            margin-bottom: 50px;
+            }
+
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<a href="index.html" class="button"><img src="IMAGE/skull.jpg" height="50px" width="50px" alt="logo"/></a><br/><br/>
+			<ul>
+				<li><a href="index.html" class="head">Home</a></li>
+				<li><a href="About us.html" class="head">About Us</a></li>
+				<li><a href="Contact us.html" class="head">Contact Us</a></li>
+				<li><a href="Product.html" class="head">Product</a></li>
+				<li><a href="Service.html" class="head">Service</a></li>
+				<li><a href="google new  tab.html">Google</a></li>
+				<li><a href="FCMB HOMEPAGE.html">FCMB</a></li>
+			</ul>
+		</div>
+		<img src="IMAGE/joker.jpg" height="500px" width="50%" alt="illustration"/><br/><br/>
+		<form>
+			<label>Username:&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp</label><input type="text"/><br/><br/>
+			<label>Password:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label><input type="password"/><br/>
+			<label>City of <br/>Employment:&nbsp &nbsp &nbsp </label><input type="text"/><br/><br/>
+			<label>Web server:&nbsp &nbsp &nbsp &nbsp &nbsp</label>
+			<Select>
+					<option selected>-Choose a server-</option>
+					<option>Chrome</option>
+					<option>Firefox</option>
+			</select><br/><br/>
+			<label>Please specify<br/>your role:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label><input type="radio"name="2"/><label>Admin</label><br/>
+			<label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label><input type="radio"name="2"/><label>Engineer</label><br/>
+			<label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp</label><input type="radio"name="2"/><label>Manager</label><br/>
+			<label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label><input type="radio"name="2"/><label>Guest</label><br/><br/>
+			<label>Single Sign-on<br/>the following:&nbsp &nbsp &nbsp &nbsp</label><input type="checkbox"/><label>Mail</label><br/>
+			<label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label><input type="checkbox"/><label>Payroll</label><br/>
+			<label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label><input type="checkbox"/><label>Self-service</label><br/><br/>
+			<label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label><input type="submit" value="Login"/>
+			<input type="submit" value="Reset"/><br/><br/>
+			<input type="text" placeholder="Search Google or type url" class="google"/>
+		</form>
+	</body>
+</html>
